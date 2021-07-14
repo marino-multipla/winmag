@@ -1,0 +1,18 @@
+Linux Tails
+
+- Attacchi DOS -> Tor's Hammer, Slowloris;
+- Brute Force Passwords -> OphCrack, Hydra, Aircrack-NG;
+- Attacchi mman in the middle -> Ettercap;
+- Scansione dei server -> Nmap, Nikito, Vega;
+
+Script example for DoS:
+Windows:
+:Beginning
+ping -n 1 www.example.it
+GOTO Beginning
+
+Unix:
+while true
+do
+ping -c1 www.example.com
+done
