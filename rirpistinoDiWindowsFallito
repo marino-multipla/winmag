@@ -1,0 +1,8 @@
+Da prompt:
+sfc /scannow
+
+chkdsk /f/r
+
+Terminata la scansione con sfc, scrivi services.msc, quindi attiva il servizio Volume Shadow Copy.
+Cancella tutti i punti di ripristino con Computer-Proprietà-ProtezioneSistema-ImpostazioneProtezione-Configura,
+infine Elimina, su UTILIZZO SPAZIO SU DISCO.
